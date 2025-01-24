@@ -67,7 +67,6 @@ Groq is committed to democratizing AI by making its technology accessible to eve
 
 For more details, visit [Groq's website](https://www.groq.com).
 
----
 
 ### Usage of Groq in This Project
 In this project, Groq’s LPU is leveraged to power the inference engine for [specific component or API, e.g., "the ChatGroq API"]. This ensures:
