@@ -34,14 +34,16 @@ Phidata is a powerful framework designed for building multi-modal agents and wor
   - Reasoning
   - Structured Outputs
   - Monitoring & Debugging
-  - 
+   
 ### Installation & Setup:
 Phidata simplifies development with straightforward installation steps:
 
-Install the package:
-`pip install -U phidata.`
-Set up a virtual environment and configure keys (e.g., OpenAI API Key).
-Build agents using the intuitive Phidata API.
+- Install the package:
+```
+pip install -U phidata.
+```
+- Set up a virtual environment and configure keys (e.g., OpenAI API Key).
+- Build agents using the intuitive Phidata API.
 
 For more details, visit [Phidata website](https://www.phidata.com/).
 
@@ -77,9 +79,10 @@ In this project, Groq’s LPU is leveraged to power the inference engine for [sp
 By incorporating Groq, the project achieves a new level of performance and user satisfaction.
 
 ---
-## What is Agentic AI?
 
-Agentic AI refers to systems designed with autonomous agents that specialize in specific tasks, allowing for efficient and collaborative problem-solving. These agents interact with each other and external tools to perform complex operations. 
+## What is Agentic AI?
+Agentic AI refers to systems designed with autonomous agents that specialize in specific tasks, allowing for efficient and collaborative problem-solving. These agents interact with each other and external tools to perform complex operations.
+
 ---
 
 ## Features
