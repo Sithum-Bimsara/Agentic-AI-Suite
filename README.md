@@ -12,21 +12,11 @@ Agentic AI is a versatile multi-agent application designed to provide advanced A
 4. [Features](#features)
 5. [Prerequisites](#prerequisites)
 6. [Setup and Usage](#setup-and-usage)  
-    6.1. [Clone the Repository](#1-clone-the-repository)  
-    6.2. [Create a Virtual Environment](#2-create-a-virtual-environment)  
-    6.3. [Activate the Virtual Environment](#3-activate-the-virtual-environment)  
-    6.4. [Install Dependencies](#4-install-dependencies)  
-    6.5. [Set Up Environment Variables](#5-set-up-environment-variables)  
 7. [Running the Application](#running-the-application)  
-    7.1. [Financial Agent](#1-financial-agent)  
-    7.2. [Playground](#2-playground)  
 8. [Project Structure](#project-structure)  
-9. [Example Use Cases](#example-use-cases)  
-10. [Requirements](#requirements)  
-11. [Technologies Used](#technologies-used)  
-12. [Troubleshooting](#troubleshooting)  
-13. [Contributing](#contributing)  
-14. [License](#license)
+9. [Example Use Cases](#example-use-cases)   
+10. [Contributing](#contributing)  
+11. [License](#license)
 
 ---
 
@@ -44,13 +34,7 @@ Phidata is a powerful framework designed for building multi-modal agents and wor
   - Reasoning
   - Structured Outputs
   - Monitoring & Debugging
-  
-### Example Use Cases:
-- Web Search Agent: An agent that performs web searches with DuckDuckGo and includes sources in its responses.
-- Finance Agent: A financial assistant capable of fetching stock prices, company news, and analyst recommendations.
-- Image Agent: An agent that analyzes images and fetches related information or news.
-- Agent Teams: Collaboration between multiple agents (e.g., a finance agent and a web search agent) to complete complex tasks efficiently.
-
+  - 
 ### Installation & Setup:
 Phidata simplifies development with straightforward installation steps:
 
@@ -96,14 +80,6 @@ By incorporating Groq, the project achieves a new level of performance and user 
 ## What is Agentic AI?
 
 Agentic AI refers to systems designed with autonomous agents that specialize in specific tasks, allowing for efficient and collaborative problem-solving. These agents interact with each other and external tools to perform complex operations. 
-
-This project features two key agents:
-
-- **Web Agent**: Handles web-based queries, retrieves up-to-date information, and ensures credible responses with sources.
-- **Finance Agent**: Specializes in financial tasks such as retrieving stock prices, analyst recommendations, company information, and news.
-
-Both agents use the **Groq Llama3-70B** model for their AI functionalities.
-
 ---
 
 ## Features
@@ -133,7 +109,6 @@ Before starting, ensure the following are installed:
 ```
 Python (3.7 or higher)
 pip (Python package installer)
-Groq (For Llama3-8b-8192 model)
 ```
 ## Setup and Usage
 
@@ -230,26 +205,6 @@ AGENTICAI/
 #### With Phidata Playground
 ![Screenshot](assets/5.png)
 ![Screenshot](assets/6.png)
-
----
-## Requirements
-The dependencies for this project are listed in requirements.txt. Some key packages include:
-- phidata
-- python-dotenv
-- yfinance
-- packaging
-- duckduckgo-search
-- fastapi
-- uvicorn
-- groq
-- python-multipart
-- google-generativeai
-
-## Technologies Used
-- **Groq Model**: Llama3-70B for advanced AI functionalities.
-- **DuckDuckGo Tool**: For web searches with credible source inclusion.
-- **YFinanceTools**: For financial data retrieval and analysis.
-- **PhiData Playground**: For a web-based interactive interface.
 
 ---
 
