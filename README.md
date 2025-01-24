@@ -26,9 +26,7 @@ Agentic AI is a versatile multi-agent application designed to provide advanced A
 11. [Technologies Used](#technologies-used)  
 12. [Troubleshooting](#troubleshooting)  
 13. [Contributing](#contributing)  
-14. [License](#license)  
-11. [Contributing](#contributing)
-12. [License](#license)
+14. [License](#license)
 
 ---
 
