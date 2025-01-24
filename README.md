@@ -223,8 +223,15 @@ AGENTICAI/
 
 ## Example Use Cases
 
+##### With Terminal
+![Screenshot](assets/1.png)
+![Screenshot](assets/2.png)
+![Screenshot](assets/3.png)
+![Screenshot](assets/4.png)
 
-
+#### With Phidata Playground
+![Screenshot](assets/5.png)
+![Screenshot](assets/6.png)
 
 ---
 ## Requirements
