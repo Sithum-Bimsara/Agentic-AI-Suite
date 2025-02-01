@@ -190,7 +190,7 @@ AGENTICAI/
 ├── financial_agent.py    # Script for interacting with the financial agent.
 ├── playground.py         # Script for launching the PhiData playground.
 ├── requirements.txt      # Project dependencies.
-├── .env                  # Environment variables (contains PHI_API_KEY).
+├── .env                  # Environment variables (contains PHI_API_KEY & GROQ_API_KEY).
 └── README.md             # Project documentation.
 ```
 
